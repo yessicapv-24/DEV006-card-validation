@@ -1,0 +1,215 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+input {
+    margin-top: 15PX;
+}
+.container {
+    background-image: url(Imagenes/background.jpeg);
+    display: flex;
+    height: 100vh;
+}
+.izquierda {
+
+    /* background-size: cover;
+    background-position: center; */
+    width: 50%;
+}
+.Mensaje {
+    background-color: #E3F4F6;
+    width: 80%;
+    margin:10px 50px;
+    padding:20px;
+    border-radius: 35px 0px 35px 0px; 
+    height: 20%;
+   -moz-border-radius: 35px 0px 35px 0px; 
+   -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #5878ca;
+    margin-top: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    color:#7d8994;
+    font: 150% sans-serif;
+    text-align: justify;
+    opacity: 0.9;
+}
+
+
+.derecha {
+    width: 50%
+
+}
+.panel {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.tarjeta {
+  font: 16px/1.5 'Helvetica Neue', Helvetica, sans-serif;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 425px;
+  height: 270px;
+  text-align: left;
+  padding: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: url("Imagenes/card_background.png") no-repeat 0 0 #141819; 
+}
+
+#chip {
+    position: absolute;
+    left: 20px;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+}
+.datos {
+margin-top: 50px;
+}
+.inner-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#numero {
+    font-size: 30px;
+    text-align: center;
+    position:absolute;
+    top: 70px;
+    width: -webkit-fill-available;
+
+}
+.Flexbox {
+    margin-top: 40px;
+}
+
+.flexbox {
+    display: flex;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+#expiracion {
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: -20px;
+    width: -webkit-fill-available;
+}
+
+#nombre {
+    text-align: left;
+}
+
+#logo-marca {
+    position: absolute;
+    right: 20px;
+}
+
+.label {
+    font-size: 16px;
+    color: #7d8994;
+    margin-bottom: 5px; 
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.nombre {
+    display: inline-block;
+}
+
+.formulario {
+    background-color: #E3F4F6;
+    width: 80%;
+    margin:10px 50px;
+    padding:20px;
+    border-radius: 35px; 
+    height: 20%;
+    top: -45px;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    opacity: 0.9;
+}
+.formulario label {
+    display: block;
+    color: #7d8994;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.formulario input 
+.formulario select
+.btn-enviar {
+    border: 2px solid #CED6E0;
+    font-size: 50px;
+    height: 50px;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 5px;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#numTarjeta, #propietario {
+    width: 78.5%;
+
+}
+.mes {
+    width: 50%;
+
+}
+#mes{
+    width: 100%;
+}
+.year {
+    width: 50%;
+}
+#year {
+    width: 100%;
+}
+.btn-enviar {
+    width: 80%;
+    border: none;
+    padding: 3px;
+    font-size: 22px;
+    color: #fff;
+    background: #2364d2;
+}
