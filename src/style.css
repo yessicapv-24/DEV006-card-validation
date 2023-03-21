@@ -22,9 +22,8 @@ li a {
 li a:hover {
     background-color: #111;
 }
-
-input {
-    margin-top: 15PX;
+.busqueda {
+    margin-top: 15px;
 }
 .container {
     background-image: url(Imagenes/background.jpeg);

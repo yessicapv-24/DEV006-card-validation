@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <script src="index.js" type="module"></script>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css"/>
     <title>Document</title>
   </head>
 
@@ -22,7 +21,7 @@
       <li><img height="43px" width="40px" src="Imagenes/stich.gif"/></li>
       <li><a href="#">WICHO</a></li>
       <li><a href="#">SEARCH</a></li>
-      <input type="text">
+      <input class="busqueda" type="text"> 
     </ul>
     <div class="container">
       <div class="izquierda">
@@ -52,7 +51,7 @@
               <div class="Flexbox">
                 <div class="grupo">
                   <p class="label align-left">Nombre Tarjeta</p>
-                  <p id="nombre">Juan Pérez</p>
+                  <p id="nombreTarjeta">Juan Pérez</p>
                 </div>
 
                 <div class="grupo" id="expiracion">
@@ -71,7 +70,6 @@
                 <input
                   type="number"
                   id="numTarjeta"
-                  oninput="rellenar(this)"
                   maxlength="16"
                 />
                 <label for="propietario">Nombre</label>
@@ -124,7 +122,7 @@
                 </div>
               </div>
             </form>
-            <button onclick="validar()" class="btn-enviar">Enviar</button>
+            <button id="enviar" class="btn-enviar">Enviar</button>
           </div>
         </div>
       </div>
@@ -139,4 +137,6 @@
 
     </ul>
   </body>
+  <script src="validator.js" type="module"></script>
+  <script src="index.js" type="module"></script>
 </html>
