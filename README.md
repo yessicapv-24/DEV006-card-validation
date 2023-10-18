@@ -4,7 +4,7 @@ Sringray es una plataforma de streaming, parecida a Netflix o HBO, en la cual se
 
 En esta plataforma, la membresía no se paga mensual sino anual y al momento de suscribirte ofrece beneficios tales como entradas a museos, descuentos en librerías y más por un costo de $60 dólares.
 
-![alt text](https://yessicapv-24.github.io/src/Imagenes/prototipo.png)
+![alt text](https://github.com/yessicapv-24/DEV006-card-validation/blob/main/src/Imagenes/prototipo.png)
 
 La pantalla que se visualiza, parte desde el entendido que el usuario ya inició sesión en su cuenta y desea realizar la reactivación de la misma mediante su pago, para lo cual en la parte derecha de la pantalla se muestra un formulario en donde te pide los datos de tu tarjeta de crédito, el formulario realiza diversas validaciones que ayudarán al usuario a rellenar la información completa:
 1. En el campo de número de tarjeta, si el usuario no ingresa la información, enviará un mensaje de tipo alert en donde le indica que se encuentra un campo vacío que debe rellenar para poder continuar con su pago, este campo únicamente acepta información numérica para una mejor experiencia.
